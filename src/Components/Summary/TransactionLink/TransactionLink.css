@@ -1,0 +1,17 @@
+.TransactionLink {
+
+}
+
+.circle-block {
+}
+
+.tx-img {
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #222;
+}
+
+.tx-text {
+  color: white;
+  width: auto;
+}

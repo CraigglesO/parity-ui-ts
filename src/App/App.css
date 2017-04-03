@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.right-align {
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  width: calc(100vw - 250px);
+}
+
+@media all and (max-width: 750px) {
+  .right-align {
+    top: 60px;
+    left: 0;
+    width: 100vw;
+  }
+}

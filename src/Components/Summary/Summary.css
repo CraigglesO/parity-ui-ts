@@ -1,0 +1,151 @@
+.Summary {
+
+}
+
+.parity-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #787c87;
+  background-color: white;
+  border-radius: 6px;
+  border-width: 0.2px;
+  border-color: #c1c1c1;
+  border-style: solid;
+  text-align: left;
+}
+
+.parity-container:hover {
+  box-shadow: 0px 2px 25px 1px rgba(0,0,0,0.05);
+}
+
+.header {
+  position: relative;
+  background-color: #707db8;
+  border-radius: 6px;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  color: #ededed;
+}
+
+.signout {
+  font-weight: lighter;
+  font-size: 30px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+.signout:hover {
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.user {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+}
+
+#user-img {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+}
+
+#user-name {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 40px;
+  float: right;
+}
+
+#welcome {
+  font-weight: lighter;
+}
+
+#e-balance {
+  float: left;
+  margin-top: 15px;
+  margin-left: 25px;
+  font-size: 24px;
+  font-family: -apple-system, 'Source Sans Pro', BlinkMacSystemFont, "Segoe UI";
+}
+
+#e-details {
+  float: right;
+  font-weight: bold;
+  margin-top: 19px;
+  margin-right: 25px;
+  color: #707db8;
+  font-size: 20px;
+}
+
+#e-amount {
+  position: relative;
+  text-align: left;
+  font-size: 35px;
+  margin-top: 70px;
+  padding-left: 90px;
+}
+
+#eth-currency {
+  position: absolute;
+  left: 30px;
+  top: 8px;
+  transform: scale(1.6);
+}
+
+#e-total {
+  color: #5C6878;
+}
+
+.e-eth {
+  color: #5C6878;
+  font-size: 17px;
+}
+
+#e-add-money {
+  color: #707db8;
+  margin-left: 25px;
+  font-weight: bold;
+  padding-top: 15px;
+  font-size: 17px;
+}
+#e-add-money:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#e-transfer {
+  color: #707db8;
+  margin-left: 25px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+#e-transfer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#recent {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  font-size: 24px;
+  font-family: -apple-system, 'Source Sans Pro', BlinkMacSystemFont, "Segoe UI";
+}
+
+#view-all {
+  padding: 18px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#view-all:hover {
+  color: #707db8;
+  cursor: pointer;
+}

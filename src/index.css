@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 480px;
+  background-color: #dadee8;
+  color: #222;
+  text-rendering: optimizeLegibility;
+  transition: all 250ms ease;
+  font-weight: normal;
+  font-family: "Avenir Next",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+::-moz-selection {
+   background-color: #707db8;
+   color: #fff;
+}
+::selection {
+    background-color: #707db8;
+    color: #fff;
+}
+
+.font-awesome {
+  textShadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+a {
+  color: #5C6878;
+  transition: color .5s ease;
+}
+
+a:hover {
+  color: #707db8;
+  text-decoration: none;
+}
